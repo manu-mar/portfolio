@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>Portfolio</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#projects" class="menu-btn">Projects</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello! my name is</div>
+                <div class="text-2">Manuel</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#">Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/profile-1.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Manuel, a Web Developer</div>
+                    <p>
+                        I am a web developer based in Kettering in the United Kingdom and I have been building applications
+                        websites, the ones can bring companies ideas to life. I help to convert a vision and an idea into
+                        meaningful and useful software products. Having the ability transform requierements into useful
+                        software helps me prioritize task, iterate fast and deliver faster. Take a look at my portfolio
+                        work and lets see if we can work together on your next project.
+                    </p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-arrows-spin"></i>
+                        <div class="text">Design Pattern</div>
+                        <p>
+                            For standardize solutions to common problems. Encapsulating best practices and proven
+                            methodologies for structuring and promoting code reusability, and enhancing maintainability.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-user-shield"></i>
+                        <div class="text">Security</div>
+                        <p>
+                            Authentication and Authorization enhance security by ensuring that only authenticated users
+                            gain access to specific resources or actions, minimizing the risk of unauthorized access and
+                            protecting sensitive information.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa-solid fa-list-check"></i>
+                        <div class="text">CRUD Functionality</div>
+                        <p>
+                            This is essential for maintaining, organizing, and manipulating data within an application or 
+                            system. It allow users with the ability to interact with data dynamically, ensuring data accuracy, 
+                            integrity, and accessibility.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- projects section start -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My projects</h2>
+            <div class="proj-content">
+                    <div class="box">
+                        <img src="images/profile-1.png" alt="">
+                        <div class="text">Bug Tracker</div>
+                        <p>In process</p>
+                    </div>
+                    <div class="box" onclick="location.href='https://google.com'">
+                            <img src="images/profile-3.png" alt="">
+                            <div class="text">.Net 8 MVC </div>
+                            <p class="hidden">
+                                This project includes the basics of .NET Core (.NET 8) in which I learned basics of
+                                MVC and Razor Pages as I enhanced MVC Application to a more complex final project
+                            </p>
+                    </div>
+                    <div class="box">
+                        <img src="images/profile-2.png" alt="">
+                        <div class="text">Blog</div>
+                        <p>In process</p>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-4.jpg" alt="">
+                        <div class="text">C#</div>
+                        <p>
+                            I use C# on a daily basis to build websites applications. You can
+                            see an example of my work implementing C# in my project section
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-6.png" alt="">
+                        <div class="text">SQL Server</div>
+                        <p>
+                            Database development is critical to most projects. I am
+                            well veresed in MS SQL Server from queries to design
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-7.png" alt="">
+                        <div class="text">Azure</div>
+                        <p>
+                            Virtualize machines, back up data through backup, perform analytics,
+                            databases, networks, storage and web. Secure storage and backup
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-9.jpeg" alt="">
+                        <div class="text">Html+CSS</div>
+                        <p>
+                            The look and feel are very important elements to any project.
+                            I utilize HTML and CSS to bring an attractive design to web projects
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>
+                        Do you have a project in mind and want to know if I am suitable for the position?
+                        I'd like to know about you. Write to me or contact me directly by email or phone.
+                        Let's start the conversation and explore how we can collaborate.
+                    </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Manuel Martin</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Kettering, UK</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">manumartinestevez@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="">Manuel Martin</a> | <span class="far fa-copyright"></span> 2024 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
