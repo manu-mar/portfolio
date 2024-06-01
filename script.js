@@ -34,10 +34,10 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Web Developer", "Full Stack Developer", "Software Engineer"],
+        strings: ["Hello W", "Hello! my name is Manuel and I'm a Software Engineer","Hello! my name is Manuel and I'm a Full Stack Developer","Hello! my name is Manuel and I'm a Web Developer"],
         typeSpeed: 50,
         backSpeed: 20,
-        loop: true
+        //loop: true
     });
 
     // owl carousel script
