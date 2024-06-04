@@ -158,7 +158,7 @@ section .title::before{
     pointer-events: auto;
 }
 .scroll-up-btn:hover{
-    filter: brightness(300%);
+    filter: brightness(150%);
 }
 
 
