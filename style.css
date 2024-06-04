@@ -212,6 +212,7 @@ section .title::before{
             color: teal;
             background: #fff;
             transform: scale(1.05);
+            border: 3.5px solid rgb(0, 108, 108);
         }
 
 /* about section styling */
