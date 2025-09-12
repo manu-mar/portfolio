@@ -360,6 +360,11 @@ section .title::before{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.projects .proj-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* skills section styling */
 .skills .title::after {
@@ -661,3 +666,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
